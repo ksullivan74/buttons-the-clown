@@ -1,0 +1,33 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "",
+      "parentName": "",
+      "childName": "",
+      "numberOfChildren": "",
+      "address": "",
+      "reservationDate": "",
+      "partylength": ""
+    },
+    {
+      "parentName": "asd",
+      "childName": "sd",
+      "numberOfChildren": "1",
+      "address": "asd",
+      "reservationDate": "2023-01-18",
+      "partylength": "1",
+      "id": "yQJ5jnp"
+    }
+  ],
+  "partyAssignments": []
+}

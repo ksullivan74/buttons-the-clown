@@ -1,7 +1,7 @@
 const applicationState = {
     clowns: [],
     reservations: [],
-    partyAssignments: []
+    partyAssignments: [],
 }
 
 
@@ -99,4 +99,15 @@ export const fetchClowns = () => {
 
 export const getClowns = () => {
     return applicationState.clowns.map(clowns => ({...clowns}))
+}
+
+// DELETE
+
+export const denyRequest = (id) => {
+    return fetch(`${API}/reservations/${id}`, { method: "DELETE"})
+    .then(
+        () => {
+            document.dispatchEvent(new CustomEvent("stateChanged"))
+        }
+    )
 }

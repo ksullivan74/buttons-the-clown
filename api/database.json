@@ -11,12 +11,12 @@
   ],
   "reservations": [
     {
-      "id": "",
+      "id": 1,
       "parentName": "",
       "childName": "",
       "numberOfChildren": "",
       "address": "",
-      "reservationDate": "",
+      "reservationDate": 1673280170808,
       "partylength": ""
     },
     {
@@ -27,6 +27,42 @@
       "reservationDate": "2023-01-18",
       "partylength": "1",
       "id": "yQJ5jnp"
+    },
+    {
+      "parentName": "Neil",
+      "childName": "Alexis",
+      "numberOfChildren": "2",
+      "address": "100 party street",
+      "reservationDate": "2023-01-12",
+      "partylength": "2",
+      "id": "wMGJQBN"
+    },
+    {
+      "parentName": "Test",
+      "childName": "Test",
+      "numberOfChildren": "3",
+      "address": "100 d street",
+      "reservationDate": "2023-01-25",
+      "partylength": "1",
+      "id": 2
+    },
+    {
+      "parentName": "Test 2",
+      "childName": "Test 2",
+      "numberOfChildren": "1",
+      "address": "123",
+      "reservationDate": "2023-01-18",
+      "partylength": "1",
+      "id": 3
+    },
+    {
+      "parentName": "Test 3",
+      "childName": "Test 3",
+      "numberOfChildren": "1",
+      "address": "SADAS",
+      "reservationDate": "2023-01-25",
+      "partylength": "1",
+      "id": 4
     }
   ],
   "partyAssignments": []

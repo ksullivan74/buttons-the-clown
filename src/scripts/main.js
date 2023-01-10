@@ -1,9 +1,15 @@
 import { buttonsClownService } from "./buttonsClownService.js"
+import { fetchReservations } from "./dataAccess.js"
 
 export const mainContainer = document.querySelector("#container")
 
 const render = () => {
-    mainContainer.innerHTML = buttonsClownService()
+    fetchReservations()
+    .then(
+        () => {
+        mainContainer.innerHTML = buttonsClownService()
+        }
+    )
 }
 
 render ()

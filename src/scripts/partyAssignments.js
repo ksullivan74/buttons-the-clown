@@ -15,7 +15,7 @@ export const partyAssignments = () => {
                         <button class = "request_delete"
                         id = "reservation--${reservation.id}">Deny</button>
                         <select class = "clowns" id = "clowns">
-                           <option value="">Choose</option>
+                           <option value="0">Choose</option>
                             ${
                                 clowns.map(
                                     clown => {

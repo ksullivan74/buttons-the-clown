@@ -18,7 +18,23 @@
       "reservationDate": "2023-01-18",
       "partylength": "1",
       "id": 1
+    },
+    {
+      "parentName": "Test",
+      "childName": "Test",
+      "numberOfChildren": "1",
+      "address": "121",
+      "reservationDate": "2023-01-12",
+      "partylength": "1",
+      "id": 2
     }
   ],
-  "partyAssignments": []
+  "partyAssignments": [
+    {
+      "reservationId": 1,
+      "clownId": 2,
+      "completeDate": 1673392596256,
+      "id": 1
+    }
+  ]
 }
